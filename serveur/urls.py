@@ -24,5 +24,5 @@ urlpatterns = [
     
     # Inclusion des URLs de l'application api
     # Toutes les URLs commençant par /api/ seront gérées par api/urls.py
-    path('api/', include('api.urls')),
+    path('api/', include('serveur.api.urls')),
 ]
